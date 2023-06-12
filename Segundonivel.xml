@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Este código XML al igual al anterior ha sido creado para almacenar y representar información sobre -->
+<!--  horarios de clases en un formato estructurado y legible. Cada instancia de "Horario" -->
+<!--  puede contener información única para una clase específica. -->
+<tabla>
+  <!-- Elemento "Horario" representa un horario -->
+  <Horario>
+    <!-- Elemento "Dia" representa el día de la semana -->
+    <Dia> Dia </Dia>
+    <!-- Elemento "hora" representa la hora del horario -->
+    <hora> Hora </hora>
+    <!-- Elemento "Asignatura" representa la asignatura del horario -->
+    <Asignatura> Asignatura </Asignatura>
+    <!-- Elemento "NombreProf" representa el nombre del profesor del horario -->
+    <NombreProf> Profesor </NombreProf>
+  </Horario>
+<Horario>
+  <!-- Elemento "Dia" representa el día de la semana en el que se lleva a cabo la clase -->
+  <Dia> Lunes </Dia>
+  <!-- Elemento "hora" representa la hora en la que se lleva a cabo la clase -->
+  <hora> 8:00-10:00 </hora>
+  <!-- Elemento "Asignatura" representa el nombre de la asignatura de la clase -->
+	<Asignatura> Estadistica Y Probabilidad </Asignatura>
+	<!-- Elemento "NombreProf" representa el nombre del profesor que imparte la clase -->
+	<NombreProf> Ing Rivadeneira Zambrano Fabricio Javier </NombreProf>
+</Horario>
+<Horario>
+	<Dia> Lunes </Dia>
+	<hora> 10:00-12:00 </hora>
+	<Asignatura> Matemáticas Discretas </Asignatura>
+	<NombreProf> Ing Mendoza Cuzme Luis Jacinto </NombreProf>
+</Horario>
+
+<Horario>
+	<Dia> Martes </Dia>
+	<hora> 8:00-10:00 </hora>
+	<Asignatura> Cálculo de una variable </Asignatura>
+	<NombreProf> Ing Garcia Velez Walter Colon </NombreProf>
+</Horario>
+
+<Horario>
+	<Dia> Martes </Dia>
+	<hora> 10:00-12:00 </hora>
+	<Asignatura> Estructura de datos  </Asignatura>
+	<NombreProf> Ing Reyes Cardenas Jose Jacinto </NombreProf>
+</Horario>
+<Horario>
+	<Dia> Miercoles </Dia>
+	<hora> 8:00-11:00 </hora>
+	<Asignatura> Sistema Electricos y Electronicos  </Asignatura>
+	<NombreProf> Ing Mendoza Cuzme Luis Jacinto </NombreProf>
+</Horario>
+<Horario>
+	<Dia> Miercoles </Dia>
+	<hora> 11:00-12:00 </hora>
+	<Asignatura> Economia Global </Asignatura>
+	<NombreProf> Ing Macias Avila Carlos Andres </NombreProf>
+</Horario>
+<Horario>
+	<Dia> Jueves </Dia>
+	<hora> 8:00-10:00 </hora>
+	<Asignatura> Cálculo de una variable </Asignatura>
+	<NombreProf> Ing Garcia Velez Walter Colon </NombreProf>
+</Horario>
+<Horario>
+	<Dia> Jueves  </Dia>
+	<hora> 10:00-12:00 </hora>
+	<Asignatura> Estadistica Y Probabilidad </Asignatura>
+	<NombreProf> Ing Rivadeneira Zambrano Fabricio Javier </NombreProf>
+</Horario>
+<Horario>
+	<Dia> Viernes  </Dia>
+	<hora> 8:00-10:00 </hora>
+	<Asignatura> Matemáticas Discretas </Asignatura>
+	<NombreProf> Ing Mendoza Cuzme Luis Jacinto </NombreProf>
+</Horario>
+<Horario>
+	<Dia> Viernes  </Dia>
+	<hora> 10:00-12:00 </hora>
+	<Asignatura> Estructura de datos </Asignatura>
+	<NombreProf> Ing Reyes Cardenas Jose Jacinto </NombreProf>
+</Horario>
+</tabla>

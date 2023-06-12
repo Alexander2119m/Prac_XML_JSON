@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestión de Horario</title>
+    <link rel="stylesheet" href="horariosc.css">
+</head>
+<body>
+	<h1>Universidad Laica Eloy Alfaro de Manabí</h1>
+	<header>
+		<div class="logo">
+		  <img src="Imagenes\logo_ULEAM.png" alt="Logo de la Universidad">
+		</div>
+		<nav>
+		  <ul>
+			<li><a href="ad.html">Inicio</a></li>
+			<li><a href="horarioA.html">Horarios</a></li>
+			<li><a href="Config.html">Configuración</a></li>
+			<li><a href="Sesion.html">Salir</a></li>
+		  </ul>
+		</nav>
+	  </header>
+	<h2>Gestión de Horario</h2>
+
+	<label for="Facultad">Seleccione la Facultad:</label>
+	<!-- El elemento "label" se utiliza para proporcionar una descripción o etiqueta para un elemento de formulario -->
+	
+	<select id="Facultad">
+	  <!-- El elemento "select" crea un menú desplegable -->
+	  
+	  <option value="Facultad Ciencias de la Vida y tecnologías">
+		<!-- El elemento "option" define una opción en el menú desplegable -->
+		Facultad Ciencias de la Vida y tecnologías
+		<!-- El texto "Facultad Ciencias de la Vida y tecnologías" representa el valor de la opción -->
+	  </option>
+	  
+	  <option value="Facultad Ciencias Administrativas, Contables y Comercio">
+		Facultad Ciencias Administrativas, Contables y Comercio
+	  </option>
+	  
+	  <option value="Facultad de Ingeniería, Industria y Construcción">
+		Facultad de Ingeniería, Industria y Construcción
+	  </option>
+	</select>
+	
+	
+	<label for="carrera">Seleccione la carrera:</label>
+	<select id="carrera">
+	  <option value="Ingeniería en tecnologías de la información">Ingeniería en tecnologías de la información</option>
+	  <option value="Ingeniería Agropecuaria">Ingeniería Agropecuaria</option>
+	  <option value="Agronegocios">Agronegocios</option>
+	  <option value="Ingeniería Agroindustrial">Ingeniería Agroindustrial</option>
+	  <option value="Ingeniería Ambiental">Ingeniería Ambiental</option>
+	  <option value="Ingeniería Ambiental">Ingeniería Ambiental</option>
+	  <option value="Ingeniería en Sistema">Ingeniería en Sistema</option>
+	  <option value="Biología">Biología</option>
+	  <option value="Biología Pesquera">Biología Pesquera</option>
+	  <option value="Bioquímica en actividades Pesqueras">Bioquímica en actividades Pesqueras</option>
+	</select>
+
+	<h3 id="titulo-semestre">Horarios de Semestres actual</h3>
+	<!-- El elemento "h3" define un encabezado de nivel 3 con el ID "titulo-semestre" -->
+	
+	<input type="file" accept=".xml" onchange="cargarXML(event)">
+	<!-- El elemento "input" de tipo "file" permite al usuario seleccionar un archivo XML. El atributo "accept" limita los archivos seleccionables a aquellos con la extensión ".xml". El evento "onchange" llama a la función "cargarXML" cuando se selecciona un archivo -->
+	
+	<div id="tablaContainer"></div>
+	<!-- El elemento "div" con el ID "tablaContainer" se utiliza como contenedor para mostrar la tabla de horarios -->
+	
+
+	 <script src="java.js"></script>
+
+	</body>
+</html>
